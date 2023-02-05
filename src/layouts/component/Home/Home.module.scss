@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content{
+    margin-right: 64px;
+    max-width: 470px;
+}
+.story-container{
+    margin-top: 16px;
+    padding: 16px 0;
+    background: rgb(255,255,255);
+    display: block;
+    overflow-y: hidden;
+    position: relative;
+}
+.story-inner{
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow-y: hidden;
+    // position: relative;
+}
+.feed{
+    margin-top: 16px;
+}
+.sidebar{
+    height: 100vh;
+    padding-top: 30px;
+    margin-bottom: 30px;
+
+}
