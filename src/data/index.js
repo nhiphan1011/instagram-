@@ -181,7 +181,8 @@ const data = {
             name: 'wabisabiclothes',
             avatar: 'https://i.pinimg.com/564x/35/16/c7/3516c7d83d497eb3a7b505322e6078b4.jpg',
             feedImagef: 'https://i.pinimg.com/564x/f2/8c/94/f28c947778f8ea6f0feecb74a5e93431.jpg',
-            caption: 'Pre-order 4 tuần từ m10 Tết ạ <3'
+            caption: 'Pre-order 4 tuần từ m10 Tết ạ <3',
+            detail: 'Thành phố Hồ Chí Minh'
             
         }, 
         {

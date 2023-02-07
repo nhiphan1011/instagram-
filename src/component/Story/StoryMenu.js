@@ -1,6 +1,6 @@
 import classNames from "classnames/bind";
 import React from 'react';
-import { Carousel } from '@trendyol-js/react-carousel';
+// import { Carousel } from '@trendyol-js/react-carousel';
 
 import styles from './Story.module.scss'
 import StoryItem from "./StoryItem";

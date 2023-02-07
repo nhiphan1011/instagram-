@@ -21,15 +21,33 @@
     height: 32px;
     display: flex;
 }
+.name-wrapper{
+    margin-left: 12px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    flex-shrink: 1;
+}
 .name{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    flex-grow: 1;
-    flex-shrink: 1;
-    margin-left: 12px;
+    justify-content: flex-start;
+    align-items: center;
     overflow: hidden;
     position: relative;
+}
+.username{
+    font-weight: 600;
+}
+.detail{
+    padding: 2px;
+    font-size: 12px;
+    line-height: 16px;
+    box-sizing: border-box;
+    display: block;
 }
 .sub-name{
     color: rgb(142,142,142);

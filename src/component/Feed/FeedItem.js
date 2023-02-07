@@ -19,12 +19,17 @@ function FeedItem({ data }) {
                             />
                         </Link>
                     </div>
-                    <div className={cx('name')}>
-                        <div><Link to={data.name}>{data.name}</Link></div>
-                        <div className={cx('sub-name')}>
-                            <span style={{margin: ' 0 4px'}}>•</span>
-                            <time dateTime="2023-01-27T11:00:12.000Z" title="Tháng 1 27, 2023">1 ngày</time>
-                        </div>
+                    <div className={cx('name-wrapper')}>
+                        <div className={cx('name')}>
+                            <div>
+                                <Link className={cx('username')} to={data.name}>{data.name}</Link>
+                            </div>
+                            <div className={cx('sub-name')}>
+                                <span style={{ margin: ' 0 4px' }}>•</span>
+                                <time dateTime="2023-01-27T11:00:12.000Z" title="Tháng 1 27, 2023">1 ngày</time>
+                            </div>
+                        </div >
+                        <div className={cx('detail')}><a href="/"><span>{data.detail}</span></a></div>
                     </div>
                 </header>
                 <div className={cx('button')}>
