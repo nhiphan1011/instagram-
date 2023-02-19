@@ -4,7 +4,8 @@ const routesConfig = {
     home: '/',
     explore: '/explore',
     messages: '/direct/inbox',
-    profile: '/name'
+    profile: '/name',
+    stories: '/stories'
 
 
 }

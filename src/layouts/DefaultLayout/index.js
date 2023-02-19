@@ -10,11 +10,11 @@ function DefaultLayout({ children }) {
     return (
         <Container fluid className={cx('container')}>
             <Row className={cx('inner')}>
-            <Col xl={2} className={cx("m-0 p-0", 'navbar')}>
+                <Col xl={2} className={cx("m-0 p-0", 'navbar')}>
                     <Navbar />
                 </Col>
                 <Col xl={10} className={cx("m-0 p-0")}  >
-                   <section>{children}</section>
+                    <section>{children}</section>
                 </Col>
             </Row>
         </Container>);
