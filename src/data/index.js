@@ -130,57 +130,57 @@ const data = {
         },
         {
             avatar: 'https://i.pinimg.com/236x/f5/2b/46/f52b46b314f904b844cd81ec577b2d74.jpg',
-            name: 'myngxx',
+            name: 'hi.mynameissg',
             state: 'not seen'
         },
         {
             avatar: 'https://i.pinimg.com/236x/47/03/cd/4703cdbd67bbe821fc65fd2dc3d2cbd2.jpg',
-            name: 'myngxx',
+            name: 'pvkc_0607',
             state: 'not seen'
         },
         {
             avatar: 'https://i.pinimg.com/236x/49/e0/41/49e04166cddf9971ed87a9895a3015db.jpg',
-            name: 'myngxx',
+            name: 'trananhfuckingthu',
             state: 'not seen'
         },
         {
             avatar: 'https://i.pinimg.com/236x/fc/77/c9/fc77c98f93b2a30280d708cb9d7317c9.jpg',
-            name: 'myngxx',
+            name: 'lykhaidang',
             state: 'not seen'
         },
         {
             avatar: 'https://i.pinimg.com/236x/19/08/da/1908da07c0d73f7b9763f62399615bfd.jpg',
-            name: 'myngxx',
+            name: 'thang_kidbe0',
             state: 'not seen'
         },
         {
             avatar: 'https://i.pinimg.com/236x/d8/8d/fb/d88dfb4dce4402d313efc93806b79fd8.jpg',
-            name: 'myngxx',
+            name: 'b_thanhtu',
             state: 'not seen'
         },
         {
             avatar: 'https://i.pinimg.com/236x/12/54/69/125469edea1d1a1fe5d8d74e67a04c1e.jpg',
-            name: 'myngxx',
+            name: '_th.suogg',
             state: 'not seen'
         },
         {
             avatar: 'https://i.pinimg.com/236x/57/26/e3/5726e3cfece911eb3704b6ad7a6f6451.jpg',
-            name: 'myngxx',
+            name: 'quinn.tq',
             state: 'not seen'
         },
         {
             avatar: 'https://i.pinimg.com/236x/27/06/a4/2706a40a13551d7edd8b624c671b885d.jpg',
-            name: 'myngxx',
+            name: 'nhi.y99',
             state: 'not seen'
         },
         {
             avatar: 'https://i.pinimg.com/236x/41/98/1e/41981e4c62d219d7e9193aa08ee95c1f.jpg',
-            name: 'myngxx',
+            name: 'huyentrann2112',
             state: 'not seen'
         },
         {
             avatar: 'https://i.pinimg.com/236x/90/75/12/907512239f7308df359744d634019eb3.jpg',
-            name: 'myngxx',
+            name: 'thtam.nguyenn',
             state: 'not seen'
         },
 

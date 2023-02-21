@@ -1,0 +1,44 @@
+.wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.inner {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #1a1a1a;
+}
+
+.logo-wrapper {
+    margin: 16px;
+
+}
+
+.logo {
+    background-image: url("https://static.cdninstagram.com/rsrc.php/v3/yr/r/I2vzPqj-0JK.png");
+    background-position: 0px 0px;
+    background-size: auto;
+    width: 103px;
+    height: 29px;
+    background-repeat: no-repeat;
+    display: inline-block;
+
+}
+
+.story {
+    max-width: 835.556px;
+    max-height: 470px;
+    border: solid 1px yellow;
+}
+
+.close-wrapper {
+    position: absolute;
+    right: 0;
+    margin: 16px;
+    top: 0;
+}
+
+.close {
+    padding: 8px;
+}

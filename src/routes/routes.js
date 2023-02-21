@@ -5,14 +5,14 @@
 import routes from './routesConfig'
 import Home from '../page/Home'
 import Explore from '../page/Explore'
-import StoriesComponent from '../component/Stories'
+import Stories from '../page/Stories'
 
 const publicRoutes = [
     { path: routes.home, component: <Home/> },
     { path: routes.explore, component: <Explore/>},
     { path: routes.messages},
     { path: routes.profile},
-    { path: routes.stories, layout: StoriesComponent}
+    { path: routes.stories, layout: Stories}
 ]
 
 const privateRoutes = []
