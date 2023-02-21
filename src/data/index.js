@@ -9,7 +9,7 @@ const data = {
         {
             username: 'tramhuuphucvinh',
             suggest: 'Followed by hongcamle20',
-            url: 'https://i.pinimg.com/236x/f5/2b/46/f52b46b314f904b844cd81ec577b2d74.jpg',
+            url: 'https://i.pinimg.com/564x/37/a7/7d/37a77d6245c0c27539b220c5a99f454f.jpg',
         },
         {
             username: 'jokedone.thift',
@@ -75,106 +75,115 @@ const data = {
     },
     storyMenu: [
         {
-            url: 'https://images.unsplash.com/photo-1673368777914-a3bdac42c5e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80',
+            avatar: 'https://i.pinimg.com/564x/a3/9d/6d/a39d6d2f656aec3c09e01739fc91d231.jpg',
             name: 'ngocphuong199',
-            state: 'live'
+            story: [
+                {
+                    url: 'https://i.pinimg.com/564x/37/a7/7d/37a77d6245c0c27539b220c5a99f454f.jpg',
+                },
+                {
+                    url: 'https://i.pinimg.com/564x/88/f1/64/88f164b91a19aa40cac5f73dcd83859a.jpg',
+                }
+            ],
+            state: 'live',
         },
         {
-            url: 'https://i.pinimg.com/236x/46/7b/52/467b52f384172f826515b806e065d761.jpg',
+            avatar: 'https://i.pinimg.com/564x/37/a7/7d/37a77d6245c0c27539b220c5a99f454f.jpg',
             name: 'pressage.vn',
+            story: {},
             state: 'seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/d1/04/f0/d104f09025e0081f7e1bf3d1400baef2.jpg',
+            avatar: 'https://i.pinimg.com/236x/d1/04/f0/d104f09025e0081f7e1bf3d1400baef2.jpg',
             name: 'nvlh99',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/b0/fa/fd/b0fafd23a5b333a354cc1cc0a2666f07.jpg',
+            avatar: 'https://i.pinimg.com/236x/b0/fa/fd/b0fafd23a5b333a354cc1cc0a2666f07.jpg',
             name: 'daudau_1810',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/b0/38/0b/b0380b6382d95f8d6d052f8660f849af.jpg',
+            avatar: 'https://i.pinimg.com/236x/b0/38/0b/b0380b6382d95f8d6d052f8660f849af.jpg',
             name: 'linhvu.98',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/ae/58/38/ae5838b49e3e35f4bfdb6395e640b70d.jpg',
+            avatar: 'https://i.pinimg.com/236x/ae/58/38/ae5838b49e3e35f4bfdb6395e640b70d.jpg',
             name: 'phamhuyentrann',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/c6/c5/17/c6c5170fe5c2677cf08e97233cfd0746.jpg',
+            avatar: 'https://i.pinimg.com/236x/c6/c5/17/c6c5170fe5c2677cf08e97233cfd0746.jpg',
             name: 'quinn.tq',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/8e/96/4b/8e964b41c85ea1844b3355eae9638fcd.jpg',
+            avatar: 'https://i.pinimg.com/236x/8e/96/4b/8e964b41c85ea1844b3355eae9638fcd.jpg',
             name: '_danmy9',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/2d/cf/63/2dcf63c23e359dd5fec6ced32d4d8805.jpg',
+            avatar: 'https://i.pinimg.com/236x/2d/cf/63/2dcf63c23e359dd5fec6ced32d4d8805.jpg',
             name: 'tgquoctuan_',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/f5/2b/46/f52b46b314f904b844cd81ec577b2d74.jpg',
+            avatar: 'https://i.pinimg.com/236x/f5/2b/46/f52b46b314f904b844cd81ec577b2d74.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/47/03/cd/4703cdbd67bbe821fc65fd2dc3d2cbd2.jpg',
+            avatar: 'https://i.pinimg.com/236x/47/03/cd/4703cdbd67bbe821fc65fd2dc3d2cbd2.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/49/e0/41/49e04166cddf9971ed87a9895a3015db.jpg',
+            avatar: 'https://i.pinimg.com/236x/49/e0/41/49e04166cddf9971ed87a9895a3015db.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/fc/77/c9/fc77c98f93b2a30280d708cb9d7317c9.jpg',
+            avatar: 'https://i.pinimg.com/236x/fc/77/c9/fc77c98f93b2a30280d708cb9d7317c9.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/19/08/da/1908da07c0d73f7b9763f62399615bfd.jpg',
+            avatar: 'https://i.pinimg.com/236x/19/08/da/1908da07c0d73f7b9763f62399615bfd.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/d8/8d/fb/d88dfb4dce4402d313efc93806b79fd8.jpg',
+            avatar: 'https://i.pinimg.com/236x/d8/8d/fb/d88dfb4dce4402d313efc93806b79fd8.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/12/54/69/125469edea1d1a1fe5d8d74e67a04c1e.jpg',
+            avatar: 'https://i.pinimg.com/236x/12/54/69/125469edea1d1a1fe5d8d74e67a04c1e.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/57/26/e3/5726e3cfece911eb3704b6ad7a6f6451.jpg',
+            avatar: 'https://i.pinimg.com/236x/57/26/e3/5726e3cfece911eb3704b6ad7a6f6451.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/27/06/a4/2706a40a13551d7edd8b624c671b885d.jpg',
+            avatar: 'https://i.pinimg.com/236x/27/06/a4/2706a40a13551d7edd8b624c671b885d.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/41/98/1e/41981e4c62d219d7e9193aa08ee95c1f.jpg',
+            avatar: 'https://i.pinimg.com/236x/41/98/1e/41981e4c62d219d7e9193aa08ee95c1f.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
         {
-            url: 'https://i.pinimg.com/236x/90/75/12/907512239f7308df359744d634019eb3.jpg',
+            avatar: 'https://i.pinimg.com/236x/90/75/12/907512239f7308df359744d634019eb3.jpg',
             name: 'myngxx',
             state: 'not seen'
         },
-        
+
     ],
     feedData: [
         {
@@ -183,15 +192,15 @@ const data = {
             feedImagef: 'https://i.pinimg.com/564x/f2/8c/94/f28c947778f8ea6f0feecb74a5e93431.jpg',
             caption: 'Pre-order 4 tuần từ m10 Tết ạ <3',
             detail: 'Thành phố Hồ Chí Minh'
-            
-        }, 
+
+        },
         {
             name: 'levents.official',
             avatar: 'https://i.pinimg.com/564x/4b/df/fa/4bdffaa572b69a773de64bafe10cb2b4.jpg',
             feedImagef: 'https://i.pinimg.com/236x/75/97/5c/75975c89305e6c7d9fe4615ee162742b.jpg',
             caption: '+ LEVENTS® COLOR TEE - Find your favourite colorrrr'
-            
-        }, 
+
+        },
 
     ]
 }

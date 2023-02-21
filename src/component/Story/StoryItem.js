@@ -1,15 +1,15 @@
 
 import classNames from "classnames/bind";
+import { Link } from "react-router-dom";
 
 import styles from './Story.module.scss'
 
 const cx = classNames.bind(styles)
 
 function StoryItem({ data }) {
-    const { url, name, state } = data
-
+    const { avatar, name, state } = data
     return (
-        <div className={cx('item')}>
+        <Link to={`/stories`} className={cx('item')}>
             <button className={cx('item-wrapper', state)}>
                 <div className={cx('avatar')}>
                     {(state === 'live' && (<>
@@ -25,7 +25,7 @@ function StoryItem({ data }) {
                                 <span className={cx('image-wrapper')}>
                                     <img className={cx('image')}
                                         alt={name}
-                                        src={url} />
+                                        src={avatar} />
                                 </span>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ function StoryItem({ data }) {
                         <span className={cx('image-wrapper')}>
                             <img className={cx('image')}
                                 alt={name}
-                                src={url}
+                                src={avatar}
                             />
                         </span>
                     </>
@@ -53,7 +53,7 @@ function StoryItem({ data }) {
                 </div>
             </button>
 
-        </div>);
+        </Link>);
 }
 
 export default StoryItem;
