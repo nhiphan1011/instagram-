@@ -5,6 +5,9 @@ import './Stories.css'
 function StoriesComponent(props) {
     const { data } = props
     const [stories, setStories] = useState([{ url: '' }])
+    const [play, setPlay] = useState(true)
+    
+    // Map data for array "stories" to render
     let _ = { ...data }
     _.story.forEach(e => {
         return e.header = {
@@ -16,13 +19,16 @@ function StoriesComponent(props) {
     useEffect(() => {
         setStories(_.story)
     }, [data])
-
     return (
         <div className='stories-item'>
             <header className='stories-header' >
                 <div className='header-button'>
-                    <button className='play'><div><svg color="rgb(255, 255, 255)" fill="rgb(255, 255, 255)" height="16" role="img" viewBox="0 0 24 24" width="16"><path d="M5.888 22.5a3.46 3.46 0 0 1-1.721-.46l-.003-.002a3.451 3.451 0 0 1-1.72-2.982V4.943a3.445 3.445 0 0 1 5.163-2.987l12.226 7.059a3.444 3.444 0 0 1-.001 5.967l-12.22 7.056a3.462 3.462 0 0 1-1.724.462Z"></path></svg></div></button>
-                    <button className='pause'><div><svg color="rgb(255, 255, 255)" fill="rgb(255, 255, 255)" height="16" role="img" viewBox="0 0 48 48" width="16"><path d="M15 1c-3.3 0-6 1.3-6 3v40c0 1.7 2.7 3 6 3s6-1.3 6-3V4c0-1.7-2.7-3-6-3zm18 0c-3.3 0-6 1.3-6 3v40c0 1.7 2.7 3 6 3s6-1.3 6-3V4c0-1.7-2.7-3-6-3z"></path></svg></div></button>
+                    {play === true ? (
+                        <button onClick={() => setPlay(false)} className='pause'><div><svg color="rgb(255, 255, 255)" fill="rgb(255, 255, 255)" height="16" role="img" viewBox="0 0 48 48" width="16"><path d="M15 1c-3.3 0-6 1.3-6 3v40c0 1.7 2.7 3 6 3s6-1.3 6-3V4c0-1.7-2.7-3-6-3zm18 0c-3.3 0-6 1.3-6 3v40c0 1.7 2.7 3 6 3s6-1.3 6-3V4c0-1.7-2.7-3-6-3z"></path></svg></div></button>
+                    ) : (
+                        <button onClick={() => setPlay(true)} className='play'><div><svg color="rgb(255, 255, 255)" fill="rgb(255, 255, 255)" height="16" role="img" viewBox="0 0 24 24" width="16"><path d="M5.888 22.5a3.46 3.46 0 0 1-1.721-.46l-.003-.002a3.451 3.451 0 0 1-1.72-2.982V4.943a3.445 3.445 0 0 1 5.163-2.987l12.226 7.059a3.444 3.444 0 0 1-.001 5.967l-12.22 7.056a3.462 3.462 0 0 1-1.724.462Z"></path></svg></div></button>
+
+                    )}
                     <button className='no-sound'><div><svg color="rgb(255, 255, 255)" fill="rgb(255, 255, 255)" height="16" role="img" viewBox="0 0 24 24" width="16"><path d="M11.403 1.083a1.001 1.001 0 0 0-1.082.187L5.265 6H2a1 1 0 0 0-1 1v10.003a1 1 0 0 0 1 1h3.265l5.01 4.682.02.021a1 1 0 0 0 1.704-.814L12.005 2a1 1 0 0 0-.602-.917ZM20.704 12l1.94-1.94a1.5 1.5 0 0 0-2.122-2.12l-1.939 1.939-1.94-1.94a1.5 1.5 0 1 0-2.12 2.122L16.461 12l-1.94 1.94a1.5 1.5 0 1 0 2.122 2.12l1.939-1.939 1.94 1.94a1.5 1.5 0 0 0 2.12-2.122Z"></path></svg></div></button>
                     <button><div><svg color="rgb(255, 255, 255)" fill="rgb(255, 255, 255)" height="24" role="img" viewBox="0 0 24 24" width="24"><circle cx="12" cy="12" r="2.75"></circle><circle cx="19.5" cy="12" r="2.75"></circle><circle cx="4.5" cy="12" r="2.75"></circle></svg></div></button>
                 </div>
