@@ -1,0 +1,169 @@
+/* 
+wrapper > inner > story > slider-container
+> center (slick-slider)
+> slick-list > slick-track
+*/
+/* slider-container = div bọc ngoài Slider */
+.slider-container {
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.center>.slick-list {
+    padding: 0 !important;
+    transform: translateX(-23px);
+}
+
+.center .slick-slide {
+    transform: scale(0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.center .slick-center {
+    transform: scale(1);
+    width: 502px !important;
+}
+
+.stories-item {
+    height: 100vh;
+    width: 502px;
+    position: relative;
+}
+
+/* .center .slick-center .stories-item {
+    transform: scale(1);
+}
+.center .stories-item {
+    transform: scale(0.4);
+    width: 502px;
+    height: 930px;
+}
+
+.center .stories-item>div {
+    margin: auto;
+    height: 100%;
+    
+}  */
+
+
+/* button prev and next */
+.center .slick-arrow {
+    height: 30px;
+    width: 30px;
+    opacity: 0.2;
+    z-index: 9999;
+}
+
+.center .slick-arrow:hover {
+    opacity: 1;
+}
+
+.center .slick-prev {
+    z-index: 9999;
+    left: 34%;
+}
+
+.center .slick-prev::before {
+    font-size: 30px;
+}
+
+.center .slick-next::before {
+    font-size: 30px;
+}
+
+.center .slick-next {
+    z-index: 9999;
+    right: 31%;
+}
+
+.stories-header {
+    position: absolute;
+    padding: 20px 16px 32px 16px;
+    display: flex;
+    z-index: 99;
+    right: 0;
+}
+
+.header-button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    min-height: 40px;
+}
+
+.header-button button {
+    padding: 8px;
+}
+
+.header-button div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.stories-footer {
+    position: absolute;
+    z-index: 999;
+    padding: 0 16px 16px;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-button {
+    margin-left: 8px;
+}
+
+.footer-button button {
+    padding: 8px;
+}
+
+.footer-wrapper {
+    display: flex;
+
+}
+
+.reply-wrapper {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 22px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    min-height: 44px;
+    padding-left: 11px;
+    padding-right: 8px;
+    align-items: center;
+
+}
+
+.reply {
+    margin-right: 4px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.reply input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(219, 219, 219);
+    padding: 0 9px;
+    height: 18px;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 18px;
+    resize: none;
+    cursor: text;
+}

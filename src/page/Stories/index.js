@@ -1,7 +1,7 @@
 
 import classNames from "classnames/bind";
 import { Link } from "react-router-dom";
-import StoriesComponent from "../../component/Stories";
+import StoriesWrapper from "../../component/Stories/StoriesWrapper";
 import routesConfig from "../../routes/routesConfig";
 
 import styles from './Stories.module.scss'
@@ -18,7 +18,7 @@ function Stories() {
                     </Link>
                 </div>
                 <div className={cx("story")}>
-                    <StoriesComponent />
+                    <StoriesWrapper />
                 </div>
                 <div className={cx("close-wrapper")}>
                     <button className={cx("close")}>
