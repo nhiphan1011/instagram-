@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 // import './Stories.css'
 import StoriesComponent from './index'
+// import StoriesComponent from './StoriesCustom'
 import file from '../../data'
 import './Stories.css'
 
