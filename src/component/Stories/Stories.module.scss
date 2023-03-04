@@ -1,5 +1,77 @@
-.wrapper{
+/* 
+wrapper > inner > story > slider-container
+> center (slick-slider)
+> slick-list > slick-track
+*/
+/* slider-container = div bọc ngoài Slider */
+.slider-container {
+  width: 100%;
+  height: 100%;
 }
-.stories{
+
+/* className của Slider */
+.center {
+  width: 100%;
+  height: 100%;
 
 }
+
+.center {
+  .slick-list {
+    padding: 0;
+    background-color: red;
+  }
+}
+
+.center .slick-track {}
+
+// Các item của center
+.center .slick-slide .slick-active .slick-center .slick-current{
+  transform: scale(1);
+}
+
+.center .item {
+  transform: scale(0.4);
+}
+
+.wrapper {}
+
+/* slide center */
+.slick-center .slick-current {
+  transform: scale(1);
+}
+
+.center img {
+  background: blue;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+/* button prev and next */
+.slick-arrow {
+  height: 30px;
+  width: 30px;
+  opacity: 0.2;
+}
+
+.slick-arrow:hover {
+  opacity: 1;
+}
+
+/* .slick-prev {
+  z-index: 1000;
+  left: 30px ;
+} */
+.slick-prev::before {
+  font-size: 30px;
+}
+
+.slick-next::before {
+  font-size: 30px;
+}
+
+/* .slick-next {
+  z-index: 100;
+  right: 30px ;
+} */
