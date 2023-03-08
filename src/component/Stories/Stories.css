@@ -39,22 +39,6 @@ wrapper > inner > story > slider-container
     position: relative;
 }
 
-/* .center .slick-center .stories-item {
-    transform: scale(1);
-}
-.center .stories-item {
-    transform: scale(0.4);
-    width: 502px;
-    height: 930px;
-}
-
-.center .stories-item>div {
-    margin: auto;
-    height: 100%;
-    
-}  */
-
-
 /* button prev and next */
 .center .slick-arrow {
     height: 30px;
@@ -166,4 +150,37 @@ wrapper > inner > story > slider-container
     line-height: 18px;
     resize: none;
     cursor: text;
+}
+
+
+/* Feed : Layout 1 : inner > slider > */
+
+.feed .slick-track {
+    display: flex;
+    align-items: center;
+}
+.feed .slick-dots {
+    bottom: 12px;
+}
+.feed .slick-arrow{
+    z-index: 99;
+}
+.feed .slick-prev {
+    left: 10px;
+    background-image: url(/public/image2.png);
+    background-repeat: no-repeat;
+    background-position: -130px -98px;
+    height: 30px;
+    width: 30px;
+}
+.feed .slick-next {
+    right: 10px;
+    background-image: url(/public/image2.png);
+    background-repeat: no-repeat;
+    background-position: -162px -98px;
+    height: 30px;
+    width: 30px;
+}
+.feed .slick-prev::before, .feed .slick-next::before  {
+    content: none;
 }

@@ -1,0 +1,26 @@
+@import "../../../_styles.scss";
+
+.more {}
+
+.more-btn {
+    min-height: 48px;
+    padding: 4px 8px;
+    border-top: 1px solid $ig-elevated-separator;
+}
+
+.more-btn:first-of-type {
+    border-top: none;
+    border-top-left-radius: $modal-border-radius;
+    border-top-right-radius: $modal-border-radius;
+    color: $ig-error-or-destructive;
+    font-weight: $font-weight-system-bold;
+}
+.more-btn:nth-child(2){
+    color: $ig-error-or-destructive;
+    font-weight: $font-weight-system-bold;
+
+}
+.more-btn:last-of-type {
+    border-bottom-left-radius: $modal-border-radius;
+    border-bottom-right-radius: $modal-border-radius;
+}

@@ -1,9 +1,33 @@
+@import "../../styles";
+// item-wrapper > item > main 
+// Feed
+.item-wrapper {
+    margin-bottom: 12px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $ig-separator;
+    
+}
+
 // FeedItem
-.item {}
+.item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
+// Feed/Main
+.main {
+    // max-height: 585px;
+    background-color: $ig-primary-background;
+    border-radius: 4px;
+    border: 1px solid $post-separator;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
 
-// headee
+// header
 .header {
     display: flex;
 }
@@ -16,12 +40,14 @@
     flex-shrink: 1;
     position: relative;
 }
-.image{
+
+.image {
     width: 32px;
     height: 32px;
     display: flex;
 }
-.name-wrapper{
+
+.name-wrapper {
     margin-left: 12px;
     align-items: flex-start;
     box-sizing: border-box;
@@ -31,7 +57,8 @@
     justify-content: center;
     flex-shrink: 1;
 }
-.name{
+
+.name {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -39,48 +66,55 @@
     overflow: hidden;
     position: relative;
 }
-.username{
-    font-weight: 600;
+
+.username {
+    font-weight: $font-weight-system-semibold;
 }
-.detail{
+
+.detail {
     padding: 2px;
     font-size: 12px;
     line-height: 16px;
     box-sizing: border-box;
     display: block;
 }
-.sub-name{
-    color: rgb(142,142,142);
+
+.sub-name {
+    color: rgb(142, 142, 142);
 }
-.button-wrapper {
+
+.more-wrapper {
     padding: 8px;
     display: flex;
 }
-
 // footer
-.footer{
-    padding: 0 16px;
+.footer {
     display: flex;
     flex-direction: column;
 }
-.like{
-    margin-bottom: 8px;;
+
+.like {
+    margin-bottom: 8px;
 }
-
+.like span {
+    font-weight: $font-weight-system-semibold;
+}
 // footer/button
-
-.button{
+.button {
     margin-top: 4px;
     padding-bottom: 6px;
     display: flex;
 }
+
 .footer button {
     padding: 8px;
 }
-.like-btn{
+
+.like-btn {
     margin-left: -8px;
 }
-.save-btn{
+
+.save-btn {
     margin-left: auto;
-        margin-right: -10px;
+    margin-right: -10px;
 }

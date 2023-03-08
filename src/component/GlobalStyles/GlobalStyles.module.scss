@@ -10,8 +10,9 @@ html {
 }
 
 body {
-    font-size: 14px;
-    line-height: 18px;
+
+    font-size: $system-14-font-size;
+    line-height: $system-14-line-height;
 }
 
 
@@ -45,4 +46,9 @@ button {
 img {
     width: 100%;
     height: 100%;
+}
+
+.row, .col{
+    padding: 0;
+    margin: 0;
 }
