@@ -1,4 +1,4 @@
-    // Color
+   // Color
     $blue-2: #b3dbff;
     $blue-4: #47afff;
     $blue-5: #0095f6;
@@ -57,14 +57,14 @@
     $ig-tertiary-button-border: rgb(219, 219, 219);
     $ig-tertiary-button-hover: rgb(245, 245, 245);
     $ig-tertiary-button-text: rgb(38, 38, 38);
-
+    
     // width height 
     $in-feed-story-item-height: 240px;
     $in-feed-story-item-width: 135px;
     //navbar
     $nav-narrow-width: 72px;
     $nav-medium-width: 244px;
-
+    
     $system-10-font-size: 10px;
     $system-10-line-height: 12px;
     $system-11-font-size: 11px;
@@ -88,17 +88,22 @@
     $system-28-line-height: 32px;
     $system-32-font-size: 32px;
     $system-32-line-height: 40px;
-
+    
     // Dark/Light Mode
     $web-always-black: 0, 0, 0;
     $web-always-white: 255, 255, 255;
-
-
-
-        // // Color
-        // --blue-2: #b3dbff;
-        // --blue-4: #47afff;
-        // --blue-5: #0095f6;
+    
+    // Feed    
+    $ig-separator: rgb(219, 219, 219);
+    $post-separator: rgb(239,239,239);
+    // More modal
+    $ig-elevated-separator: rgb( 219, 219, 219);
+    $modal-border-radius: 12px;
+    $ig-error-or-destructive: rgb(237, 73, 86);
+    // // Color
+    // --blue-2: #b3dbff;
+    // --blue-4: #47afff;
+    // --blue-5: #0095f6;
         // --blue-6: #0074cc;
         // --blue-7: #0057a3;
         // --blue-9: #002952;

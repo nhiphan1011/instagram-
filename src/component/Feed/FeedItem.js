@@ -1,10 +1,17 @@
 import classNames from "classnames/bind";
 import { Link } from "react-router-dom";
-import styles from './Feed.module.scss'
+import More from "../Modal/More";
 
+import styles from './Feed.module.scss'
+import Main from "./Main";
+
+import file from '../../data'
+import { useState } from "react";
 const cx = classNames.bind(styles)
 
 function FeedItem({ data }) {
+    const [more, setMore] = useState(false)
+
     return (
         <div className={cx('item')}>
             <div className={cx('header')}>
@@ -32,8 +39,9 @@ function FeedItem({ data }) {
                         <div className={cx('detail')}><a href="/"><span>{data.detail}</span></a></div>
                     </div>
                 </header>
-                <div className={cx('button')}>
-                    <button className={cx('button-wrapper')}>
+                <div className={cx('more')}>
+                    <More data={file.more.feed} show={more} onHide={() => setMore(false)}/>
+                    <button className={cx('more-wrapper')} onClick={()=>setMore(true)}>
                         <div>
                             <svg
                                 width='24px'
@@ -50,10 +58,7 @@ function FeedItem({ data }) {
 
             </div>
             <div className={cx('main')}>
-                <img
-                    alt='name'
-                    src={data.feedImagef}
-                />
+                <Main data={data}/>
             </div>
             <div className={cx('footer')}>
                 <section className={cx('button')}>
@@ -142,13 +147,18 @@ function FeedItem({ data }) {
 
 
                 </section>
-                <section className={cx('like')}>12 lượt thích</section>
+                <section className={cx('like')}><span>12 lượt thích</span></section>
                 <div className={cx('content')}>
-                    <div className={cx('caption')}>{data.caption}</div>
+                    <span><Link className={cx('username')} to={data.name}>{data.name}</Link></span>
+                    <span>&nbsp;</span>
+                    <span className={cx('caption')}>{data.feed.caption}</span>
                 </div>
             </div>
         </div>
+
     );
+
+
 }
 
 export default FeedItem;
